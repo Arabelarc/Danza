@@ -1,0 +1,44 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* CLEARFIX */
+.clearfix:before, .clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/* Text helper classes */
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+@font-face {
+    font-family: Oswald-Bold;
+    src: url(fonts/Oswald-Bold.ttf);
+}
+@font-face {
+    font-family: DroidSerif;
+    src: url(fonts/DroidSerif.ttf);
+}
+p{
+  font-family: "DroidSerif";
+}
+nav, h2 , h3 , h4 {
+  font-family: "Oswald-Bold";
+
+}
+h4, h3{
+  font-size: 3em;
+}
+
